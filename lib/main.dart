@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main_2.dart';
+import 'main_2.dart'; // Importamos correctamente la pantalla
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TShirtCalculatorScreen(),
-  );
+      home: const TShirtCalculatorScreen(), // Usamos el widget correctamente
+    );
   }
 }
