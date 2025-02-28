@@ -23,3 +23,88 @@ Les proves es troben en aquest enllaç, estàn per un costat el fitxer amb exten
 
 # Exercici 7
 Degut a que hem realitzat la aplicació el meu company Samuel y yo y segons la pràctica no hem de fer funcionalitat nova ni tests per a la mateixa.
+
+# Cascade vs Agile
+
+## Comparativa
+
+| Característica             | **Cascade**                        | **Agile**                            |
+|----------------------------|------------------------------------|--------------------------------------|
+| **Estructura**              | Lineal y secuencial                | Iterativa y flexible                 |
+| **Fase de ejecución**       | Fijas y predefinidas               | Flexibles, adaptables                |
+| **Planificación**           | Extensa y detallada desde el inicio| Planificación continua y evolutiva   |
+| **Flexibilidad**            | Baja, cambios son costosos         | Alta, cambios son bienvenidos       |
+| **Desarrollo**              | Completo antes de la entrega       | Desarrollo continuo y entregas frecuentes |
+| **Comunicación**            | Formal, basada en documentación    | Colaborativa, enfocada en reuniones regulares |
+| **Adaptabilidad**           | Baja, cambios solo después de completar fases | Alta, adaptación durante todo el proceso |
+| **Tiempo de entrega**       | Largo, en fases definidas          | Corto, entregas rápidas y frecuentes |
+| **Riesgo**                  | Alto, los cambios son difíciles de implementar | Bajo, debido a la constante retroalimentación |
+
+## Descripción
+
+- **Cascade**: Es un enfoque tradicional en el que cada fase del proyecto debe completarse antes de pasar a la siguiente. Es adecuado para proyectos con requisitos bien definidos y poco cambiantes.
+- **Agile**: Se enfoca en la flexibilidad y adaptación continua, permitiendo la entrega de pequeñas partes del proyecto de manera iterativa. Ideal para proyectos con cambios frecuentes y necesidades dinámicas.
+
+# Esquema proyecto Agile
+                      +-------------------------+
+                      |    Inicio del Proyecto  |
+                      +-----------+-------------+
+                                  |
+                                  v
+                      +-----------|-------------+
+                      |  Planificación Inicial  |
+                      |  - Definir Objetivos    |
+                      |  - Identificar Stakeholders |
+                      +-----------+-------------+
+                                  |
+                                  v
+                       +----------|----------+
+                       | Crear Backlog Inicial |
+                       | - Priorizar Tareas    |
+                       +----------|----------+
+                                  |
+                                  v
+                       +----------|----------+
+                       |   Sprint Planning    |
+                       |  - Definir Sprint    |
+                       |  - Estimar Tareas    |
+                       +----------|----------+
+                                  |
+                                  v
+                       +----------|----------+
+                       |   Sprint 1 (2 Semanas) |
+                       | - Desarrollo Funcional|
+                       | - Daily Standups      |
+                       | - Revisión Cliente    |
+                       +----------|----------+
+                                  |
+                                  v
+                       +----------|----------+
+                       | ¿Nuevo Sprint?       |
+                       | (Sí/No)              |
+                       +----------|----------+
+                                  |
+            +---------------------+---------------------+
+            |                                         |
+      +-----v-----+                            +------v-------+
+      | Sprint 2  |                            |  Cierre del  |
+      | (2 Semanas)|                            |  Proyecto    |
+      +-----|-----+                            +--------------+
+            |
+            v
+      +-----|-----+
+      | Sprint 3  |
+      | (2 Semanas)|
+      +-----|-----+
+            |
+            v
+      +-----|-----+
+      | Sprint 4  |
+      | (2 Semanas)|
+      +-----|-----+
+            |
+            v
+      +-----v------+
+      | Cierre del |
+      | Proyecto   |
+      +------------+
