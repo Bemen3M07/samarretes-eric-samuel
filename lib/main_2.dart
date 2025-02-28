@@ -128,6 +128,13 @@ class _TShirtCalculatorScreenState extends State<TShirtCalculatorScreen> {
                   'Preu: $_price €',
                   style: const TextStyle(fontSize: 32),
                 ),
+                if (_offer == '10%') ...[
+                  const SizedBox(width: 10),
+                  const Text(
+                    'Descompte del 10% aplicat!',
+                    style: TextStyle(color: Colors.green, fontSize: 16),
+                  ),
+                ],
                 if (_offer == '20€') ...[
                   const SizedBox(width: 10),
                   const Text(
